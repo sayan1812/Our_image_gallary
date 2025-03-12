@@ -77,14 +77,14 @@ div h1{
     margin: 30px;
     color: white;
 }
-@media (max-width: 915px) and (min-width: 412px) {
-    .bird_img {
+@media (max-width: 915px) and (min-width: 462px) {
+    .container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 411px) {
-    .bird_img {
+@media (max-width: 462px) {
+    .container {
         grid-template-columns: repeat(1, 1fr);
     }
 }
