@@ -54,6 +54,17 @@ div img{
     filter: brightness(50%);
     opacity: 0.6;
     transition: 0.2s;
+    animation: fade-scale-in ease-in-out 3s;
+}
+@keyframes fade-scale-in {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 img:hover{
     /* transform: scale(1.1); */
@@ -65,4 +76,15 @@ div h1{
     font-size: 90px;
     margin: 30px;
     color: white;
+}
+@media (max-width: 915px) and (min-width: 412px) {
+    .bird_img {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 411px) {
+    .bird_img {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
