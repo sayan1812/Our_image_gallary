@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+*{
+    .emblema-one-regular {
+        font-family: "Emblema One", system-ui;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+}
+body {
+    background: linear-gradient(to right, 
+        rgb(43, 3, 3),  
+        rgb(101, 6, 6), 
+        rgb(123, 4, 4), 
+        rgb(92, 6, 6), 
+        rgb(24, 1, 1)
+    );
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    
+}
+.text{
+    box-shadow: 0 0 2px  2px rgba(50, 32, 32, 0.61) ;
+    border-radius: 5%;
+    background-color: rgba(70, 5, 5, 0.852);
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    transition-duration: 0.2s;
+}
+.text:hover{
+    box-shadow: 0 0 2px  2px rgba(50, 32, 32, 0.842) ;
+    transform: scale(1.1);
+}
+div img{
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10%;
+    filter: brightness(50%);
+    opacity: 0.6;
+    transition: 0.2s;
+}
+img:hover{
+    /* transform: scale(1.1); */
+    filter: brightness(100%);
+    opacity: 1.1;
+}
+div h1{
+    text-align: center;
+    font-size: 90px;
+    margin: 30px;
+    color: white;
+}
