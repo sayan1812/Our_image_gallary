@@ -1,1 +1,1 @@
-# Our_image_gallary
+# Our_image_gallery
